@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+#mission {
+    background-color: #333;
+}
+#mission .mission-wrap {
+    position: relative;
+    max-width: 1280px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+#mission h2 {
+    position: absolute;
+    top: -84px;
+    font-size: 80px;
+    color: #333;
+    margin: 0 auto;
+}
+#mission .content {
+    height: 705px;
+}
+#mission .content-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+#mission .img-wrap {
+    position: relative;
+    margin: 80px auto;
+}
+#mission .img-wrap img {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+}
+#mission .img-wrap .description {
+    color: white;
+    padding:  16px 132px;
+    font-size: 18px;
+    text-indent: 16px;
+    box-sizing: border-box;
+}
+
+#office .office-wrap {
+    position: relative;
+    max-width: 1280px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+#office h2 {
+    position: absolute;
+    top: -84px;
+    font-size: 80px;
+    color: white;
+    margin: 0 auto;
+}
+#office .content {
+    height: 705px;
+}
+
+#office .content-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+#office .img-wrap {
+    position: relative;
+    width: 900px;
+    margin: 120px auto;
+}
+#office .img-wrap img {
+    width: 100%;
+}
+#office .circle {
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 8px;
+    background-color: #FFDC34;
+    border: 2px solid #FFC200;
+}
+
+#office .circle.hq {
+    top: 120px;
+    left: 430px;
+}
+#office .circle.usa {
+    top: 135px;
+    right: 235px;
+}
+#office .circle.jp {
+    top: 120px;
+    left: 470px;
+}
+#office .circle.ch {
+    top: 162px;
+    left: 412px;
+}
+#office .circle.uk {
+    top: 65px;
+    left: 30px;
+}
+
+#office .name-wrap {
+    position: relative;
+    width: 260px;
+    font-size: 18px;
+}
+#office .name {
+    position: absolute;
+}
+#office .name a:hover {
+    font-weight: 600;
+}
+#office .hq {
+    top: 120px;
+    left: 430px;
+}
+#office .hq .name {
+    top: -28px;
+    left: -30px;
+    color: #eee;
+}
+#office .usa .name {
+    top: -24px;
+    left: 16px;
+    color: #ccc;
+}
+#office .jp .name {
+    top: 4px;
+    left: 18px;
+    color: #333;
+}
+#office .ch .name {
+    top: -20px;
+    left: -92px;
+    color: #ccc;
+}
+#office .uk .name {
+    top: -7px;
+    left: -70px;
+    color: #333;
+}

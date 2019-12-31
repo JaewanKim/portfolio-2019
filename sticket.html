@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js" fp-enabled="true">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JaewanKim Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet" href="../css/fullpage.css">
+    <link rel="stylesheet" href="../css/particle.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:500,900|Noto+Sans+KR:500,900&display=swap&subset=korean" rel="stylesheet">
+
+    <script type='text/javascript' src='../js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.particleground.js'></script>
+    <script type='text/javascript' src='../js/demo.js'></script>
+    <script type="text/javascript" src="../js/vanilla.js"></script>
+    <script type="text/javascript" src="../js/fullpage.js"></script>
+    <script type="text/javascript" src="../js/easings.min.js"></script>
+    <script type="text/javascript" src="../js/scrolloverflow.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <a href="../index.html" class="logo">JaewanKim</a>
+        <button class="menu-btn" onclick="btn_menu();"></button>
+
+        <nav role="navigation" class="folded">
+            <a href="../index.html" class="logo">JaewanKim</a>
+            <button class="menu-btn" onclick="btn_menu();"></button>
+
+            <ul class="nav-ul">
+                <li><a href="../about.html" class="left">About Me</a></li>
+                <li>
+                    Works
+                    <ul>
+                        <li class="sub-li"><a href="../uxui.html" class="left">UX/UI</a></li>
+                        <li class="sub-li"><a href="../art.html" class="left">Artwork</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="title-wrap">
+            <div id="particles">
+                <div id="intro">
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content">
+                <div class="sub-wrap">
+                    <div class="sub-title">Sticket</div>
+                    <div class="sub-description">Sticket은 Sticker와 Market의 합성어로, 스마트폰 카메라에서 사용되는 AR 스티커를 직접 만들고 사고 팔 수 있는 안드로이드 앱입니다.<br>
+                    구글의 Face API를 이용해 Face Detection을 하여 얼굴의 랜드마크에 스티커를 위치시킵니다.<br>
+                    아래의 Github 링크에서 협업 과정과 코드를 확인할 수 있습니다.<br>
+                    </div>
+                    <dl class="sub-dl">
+                        <dt>Lecture</dt>
+                        <dd>2019-2 컴퓨터공학과 캡스톤디자인</dd>
+                        <dt>Role</dt>
+                        <dd>
+                            <ul>
+                                <li class="list">UX/UI</li>
+                                <li class="list">App Design</li>
+                                <li class="list">Android Front-End Development</li>
+                            </ul>
+                        </dd>
+                        <dt>Date</dt>
+                        <dd>2019.03 ~ 2019.11</dd>
+                        <dt>Open Source</dt>
+                        <dd>
+                            <ul>
+                                <li class="list"><a href="https://developers.google.com/vision/face-detection-concepts" target="_blank">Google Face API</a></li>
+                                <li class="list"><a href="https://github.com/hdodenhof/CircleImageView" target="_blank">CircleImageView</a></li>
+                                <li class="list">Retrofit</li>
+                                <li class="list">Room - ORM DB</li>
+                                <li class="list">FolderPicker</li>
+                                <li class="list">Butterknife</li>
+                                <li class="list">Lombok</li>
+                            </ul>
+                        </dd>
+                        <dt>Result</dt>
+                        <dd>
+                            <ul>
+                                <li class="list"><a href="https://github.com/sticket-studio/sticket-android" target="_blank">GITHUB</a></li>
+<!--
+                                <li class="list"><a href="https://drive.google.com/open?id=1O1PinXiI0U0O9DteHqhQzwi8h1a7jQoo" target="_blank">시연 영상</a></li>
+                            </ul>
+-->
+                        </dd>
+                    </dl>
+                </div>
+
+                <ol class="sub-img">
+                    <li class="img-wrap">
+                        <img src="../img/website/sticket.jpg" alt="스티켓">
+                    </li>
+                    <li class="img-wrap">
+                        <img src="../img/website/sticket2.jpg" alt="스티켓">
+                    </li>
+                    <li class="img-wrap">
+                        <img src="../img/website/sticket3.jpg" alt="스티켓">
+                    </li>
+                    <li>
+                        <iframe width="1248" height="712" src="https://www.youtube.com/embed/RdN7XpjPPms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+                </ol>
+                
+                <a href="../uxui.html#sticket" class="port">
+                    <img src="../img/icon/back.png" alt="포트폴리오 사이트로 돌아가기">
+                    <div class="hover">&lt; 돌아가기</div>
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <button class="top_btn" onclick="window.scrollTo(0, 0);">TOP</button>
+    
+    <footer>
+       <div class="footer-content">
+            <div class="footer-copy">
+                Copyright © 1996-2019. JaewanKim. All rights reserved.
+            </div>
+            <ul class="footer-contact">
+                <li>
+                    <a href="mailto:wodhks6561@gmail.com">
+                        <img src="../img/icon/mail2.png" alt="mail">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/JaewanKim">
+                        <img src="../img/icon/github2.png" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/wa_nee_/">
+                        <img src="../img/icon/insta2.png" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+       </div>
+    </footer>
+    
+    <script>
+        function btn_menu() {
+            var menus = document.getElementsByTagName("nav")[0];
+            if (menus.classList.contains('folded')) {
+                menus.classList.remove('folded');
+            } else {
+                menus.classList.add('folded');
+            }
+        }
+
+    </script>
+</body>
+
+</html>

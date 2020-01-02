@@ -1,0 +1,181 @@
+#position {
+    background-color: #333;
+}
+
+#position .position-wrap {
+    position: relative;
+    max-width: 1280px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+#position h2 {
+    position: absolute;
+    top: -84px;
+    font-size: 80px;
+    color: #333;
+    margin: 0 auto;
+}
+
+
+#position .content {
+    padding: 80px 0 160px 0;
+}
+
+#position .content-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#position .accordion .title {
+    display: inline-block;
+    width: 955px;
+}
+
+#position .accordion .who {
+    display: inline-block;
+    width: 100px;
+}
+
+#position .accordion .until {
+    display: inline-block;
+    width: 100px;
+}
+
+#position .accordion {
+    background-color: #333;
+    color: #eee;
+    cursor: pointer;
+    padding: 25px;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-top: -1px;
+}
+
+#position .active,
+.accordion:hover {
+    background-color: #ccc;
+    color: #000;
+    max-height: inherit;
+    border-top: none;
+    border-bottom: none;
+}
+
+.accordion:after {
+    background-image: url(../img/careers/arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 10px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    color: #777;
+    float: right;
+}
+
+.active:after {
+    content: '';
+    background-image: url(../img/careers/arrow-up.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 10px;
+    content: '';
+    width: 24px;
+    height: 24px;
+}
+
+#position .panel {
+    transition: 0.2s;
+    padding: 0 60px;
+    font-size: 18px;
+    background-color: #eee;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#position .apply-btn {
+    max-height: inherit;
+    display: block;
+    text-align: center;
+    width: 260px;
+    font-size: inherit;
+    padding: 15px 60px;
+    background-color: white;
+    border: 1px solid #c1c1c1;
+    margin: 32px auto 0 auto;
+    box-sizing: border-box;
+}
+
+
+#benefits .benefits-wrap {
+    position: relative;
+    max-width: 1280px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+#benefits h2 {
+    position: absolute;
+    top: -84px;
+    font-size: 80px;
+    color: white;
+    margin: 0 auto;
+}
+
+#benefits .content {
+    height: 905px;
+}
+
+#benefits .content-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#benefits .table {
+    margin: 80px auto;
+    display: table;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 16px;
+}
+
+#benefits .tr {
+    display: table-row;
+}
+
+#benefits .td {
+    width: 260px;
+    height: 332px;
+    display: table-cell;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 16px;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#benefits img {
+    width: 140px;
+    margin: 16px;
+}
+
+#benefits .title {
+    font-size: 20px;
+    color: #333;
+}
+
+#benefits .description {
+    font-size: 16px;
+    color: #666;
+    margin: 2px 0 6px 0;
+}

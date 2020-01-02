@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js" fp-enabled="true">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JaewanKim Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/works.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet" href="../css/fullpage.css">
+    <link rel="stylesheet" href="../css/particle.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:500,900|Noto+Sans+KR:500,900&display=swap&subset=korean" rel="stylesheet">
+
+    <script type='text/javascript' src='../js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.particleground.js'></script>
+    <script type='text/javascript' src='../js/demo.js'></script>
+    <script type="text/javascript" src="../js/vanilla.js"></script>
+    <script type="text/javascript" src="../js/fullpage.js"></script>
+    <script type="text/javascript" src="../js/easings.min.js"></script>
+    <script type="text/javascript" src="../js/scrolloverflow.min.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <a href="../index.html" class="logo">JaewanKim</a>
+        <button class="menu-btn" onclick="btn_menu();"></button>
+
+        <nav role="navigation" class="folded">
+            <a href="../index.html" class="logo">JaewanKim</a>
+            <button class="menu-btn" onclick="btn_menu();"></button>
+
+            <ul class="nav-ul">
+                <li><a href="../about.html" class="left">About Me</a></li>
+                <li>
+                    Works
+                    <ul>
+                        <li class="sub-li"><a href="../uxui.html" class="left">UX/UI</a></li>
+                        <li class="sub-li"><a href="../art.html" class="left">Artwork</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <div class="title-wrap">
+            <div id="particles">
+                <div id="intro">
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content">
+                <div class="sub-wrap">
+                    <div class="sub-title">포트폴리오 구성요소 </div>
+                    <div class="sub-description">부스트코스는 네이버에서 설립한 커넥트 재단에서 기획하고 운영하는 실무형 온라인 교육 프로그램입니다.<br>웹 UI 개발 프로젝트에서는 웹접근성을 고려하여 제시된 디자인 가이드에 맞게 결과물을 제작하고 제출하면,<br>
+                    전문 리뷰어가 검토 후 피드백과 함께 Pass/Fail 여부를 전달하는 방식으로 진행됩니다.</div>
+                    <dl class="sub-dl">
+                        <dt>Lecture</dt>
+                        <dd>[부스트코스] 웹 UI 개발</dd>
+                        <dt>Role</dt>
+                        <dd>Web UI Development</dd>
+                        <dt>Skill</dt>
+                        <dd>
+                            <ul>
+                                <li class="list">Code Validation</li>
+                                <li class="list">Semantic Markup</li>
+                                <li class="list">Cross Browsing</li>
+                            </ul>
+                        </dd>
+                        <dt>Date</dt>
+                        <dd>2019.08 ~ 2019.09</dd>
+                        <dt>Reference</dt>
+                        <dd>
+                            <ul>
+                                <li class="list"><a href="https://www.edwith.org/boostcourse-ui/project/156/content/128#summary" target="_blank">[부스트코스] 웹 UI 개발 프로젝트A-2</a></li>
+                                <li class="list"><a href="https://www.freepik.com/free-photos-vectors/mockup" target="_blank">Mockup</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                </div>
+
+                <ol class="sub-img">
+                    <li class="img-wrap">
+                        <img src="../img/website/bst_portfolio.jpg" alt="포트폴리오A-2">
+                    </li>
+                </ol>
+                
+                <div class="btn-wrap">
+<!--                    <a href="./website/portfolio(2)/portfolio.html" class="demo-btn">DEMO 보러가기</a>-->
+                    <a href="javascript:alert('부스트코스 정책 상 소스코드 유출을 엄격하게 금하고 있어 링크를 막아두었습니다.')" class="demo-btn">DEMO 보러가기</a>
+                </div>
+
+                <a href="../uxui.html#bst_portfolio" class="port">
+                    <img src="../img/icon/back.png" alt="포트폴리오 사이트로 돌아가기">
+                    <div class="hover">&lt; 돌아가기</div>
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <button class="top_btn" onclick="window.scrollTo(0, 0);">TOP</button>
+    
+    <footer>
+       <div class="footer-content">
+            <div class="footer-copy">
+                Copyright © 1996-2019. JaewanKim. All rights reserved.
+            </div>
+            <ul class="footer-contact">
+                <li>
+                    <a href="mailto:wodhks6561@gmail.com">
+                        <img src="../img/icon/mail2.png" alt="mail">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/JaewanKim">
+                        <img src="../img/icon/github2.png" alt="github">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/wa_nee_/">
+                        <img src="../img/icon/insta2.png" alt="instagram">
+                    </a>
+                </li>
+            </ul>
+       </div>
+    </footer>
+    
+    
+    <script>
+        function btn_menu() {
+            var menus = document.getElementsByTagName("nav")[0];
+            if (menus.classList.contains('folded')) {
+                menus.classList.remove('folded');
+            } else {
+                menus.classList.add('folded');
+            }
+        }
+
+    </script>
+</body>
+
+</html>

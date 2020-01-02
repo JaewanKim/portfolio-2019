@@ -98,14 +98,14 @@ html.fp-enabled,
 #fp-nav {
     position: fixed;
     z-index: 100;
-    margin-top: -32px;
     top: 28.5vh;
-    margin: 1.75vh;
+    margin: 2.75vh;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
 }
 #fp-nav.fp-right {
     right: 17px;
+    top: 46%;
 }
 #fp-nav.fp-left {
     left: 17px;

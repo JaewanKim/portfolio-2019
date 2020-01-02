@@ -104,10 +104,10 @@
 
 .btn-wrap a .hover {
     position: absolute;
-    left: -60px;
-    bottom: -40px;
+    left: -47px;
+    bottom: -30px;
     width: 500px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 @keyframes slideshow {
